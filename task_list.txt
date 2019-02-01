@@ -1,0 +1,30 @@
+Vend O1 juin 2018
+
+à faire:
+
+1) écrire une onction jQuery qui
+-descent le scrollbar vertical à l'ouverture de la page d'authentification(index.php)
+-descent le scrollbar vertical à chaque fois que le password est rempli( afin de montrer le bouton valider qui est  1p caché qd mm !)
+
+2) calcul des resultats des votes 
+- tester la requete directement sur le terminal MySQ
+- l implementer sur l application web remotevoting
+- l implementer sur l application mobile remotevoting
+Attention: afficher le resultat dans une activité et pas dans un fragment(sinon ce serait compliqué)
+_______________________________________________________________________________________________________
+Samedi 02 Juillet
+
+Fait:
+
+*modification sur l'inscription et l authentification des utilisateur(employés de l'ambassade):
+-> remplacement de la table etatcivil.listeofficiers par latable mysql.user
+-> ce afin de pouvoir gerer les droit utilisateur alors on les inscrits dans la base mysql
+-> 4 fichier consernés:
+
+inscriptionSurPC.php
+inc/ecriture/traitementInscription.php
+
+
+passwordSurPC.php
+inc/lecture/traitement_passwordperdu.php
+______________________________________________________________________________________________________
